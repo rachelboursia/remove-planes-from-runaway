@@ -17,7 +17,7 @@
     "url": "https://github.com/MultiverseLearningProducts/remove-planes-from-runaway/issues"
   },
   "homepage": "https://github.com/MultiverseLearningProducts/remove-planes-from-runaway#readme",
-  "dependencies": {
-    "jest": "^27.5.1"
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }

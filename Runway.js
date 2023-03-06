@@ -15,4 +15,13 @@ class Runway {
         }
         Runway.planes.push(plane)
     }
+
+    remove(plane) {
+        const index = Runway.planes.indexOf(plane);
+        if(index === -1) {
+            throw new Error ("plane not found on runway!");
+        }
+        Runway.planes.splice(index, 1);
+    }
 }
+module.exports = Runway;
